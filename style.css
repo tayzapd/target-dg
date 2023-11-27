@@ -1,0 +1,191 @@
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+  }
+
+.header-text-one {
+  font-size: 69px;
+  line-height: 75px;
+  font-weight: 900;
+  color: #1d2860;
+  text-transform: capitalize;
+  margin-top: -18px;
+  margin-bottom: 19px;
+}
+
+
+.header-text-two {
+  font-size: 69px;
+  line-height: 75px;
+  font-weight: 900;
+  color: #bf1e2e;
+  text-transform: capitalize;
+  margin-top: -18px;
+  margin-bottom: 19px;
+}
+
+
+.custom_shape_divider_bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: b;
+}
+
+.header-process .process-title {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 700;
+  color: transparent;
+  letter-spacing: 2px;
+  background: -webkit-gradient(linear,right top,left top,color-stop(50%,#bf1e2e),to(#9c0d1b));
+  background: -webkit-linear-gradient(right,#bf1e2e 50%,#9c0d1b);
+  background: -o-linear-gradient(right,#bf1e2e 50%,#9c0d1b);
+  background: linear-gradient(-90deg,#bf1e2e 50%,#9c0d1b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.header-process .process-des {
+  font-size: 55px;
+  line-height: 65px;
+  font-weight: 700;
+  color: #1d2860;
+  text-transform: capitalize;
+  padding-bottom: 22px;
+  margin-top: -7px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.process-des-message {
+  font-size: 25px;
+  line-height: 100%;
+  font-weight: 700;
+  color: #1d2860;
+  margin-top: -5px;
+  margin-bottom: -4px;
+}
+
+.header-service .service-title {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 700;
+  color: transparent;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 22px;
+  color: #bf1e2e;
+}
+
+.header-service .service-des {
+  font-size: 55px;
+  line-height: 65px;
+  font-weight: 700;
+  color: white;
+  text-transform: capitalize;
+  padding-bottom: 22px;
+  margin-top: -7px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+
+
+
+
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 200px;
+  margin: 10px;
+}
+
+
+.single-comment {
+  width: 400px;
+  padding: 5px;
+}
+
+.single-comment::after {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+
+.part-txt {
+  text-align: center;
+  margin-bottom: -6px;
+  width: 300px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+
+.part-img::after {
+  content: "“";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -20px;
+  width: 35px;
+  height: 35px;
+  background: -webkit-gradient(linear,right top,left top,color-stop(50%,#1d2860),to(#1d2860));
+  background: -webkit-linear-gradient(right,#1d2860 50%,#1d2860);
+  background: -o-linear-gradient(right,#1d2860 50%,#1d2860);
+  background: linear-gradient(-90deg,#1d2860 50%,#1d2860);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.part-img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  margin-bottom: 42px;
+  border-radius: 100%;
+}
+
+.part-img img {
+  border-radius: 100%;
+}
+
+
+.owl-carousel {
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+}
