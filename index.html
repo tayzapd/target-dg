@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Target</title>
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <script src="owl/owl.carousel.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -20,7 +22,7 @@
 
 
     <nav
-        class="flex-no-wrap fixed top-0 z-8 flex w-full  justify-between bg-[#FBFBFB]  shadow-md shadow-black/5  dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-2">
+        class="flex-no-wrap fixed top-0 z-8 flex w-full  justify-between bg-[#FBFBFB]  shadow-md shadow-black/5  dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-2 z-10">
         <div class="flex w-full flex-wrap items-center justify-between px-8">
             <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="./target.png" class="h-12" alt="Flowbite Logo">
@@ -64,10 +66,10 @@
         </div>
     </nav>
 
-    <header class="w-full grid grid-cols-2 gap-4 mt-16 py-20  relative"
+    <header class="w-full grid grid-cols-1 md:grid-cols-2  gap-4 py-20  relative"
         style="background-image: url('./SL-120722-54440-29.jpg'); background-size: cover;">
 
-        <div class=" grid grid-cols-1 flex items-center justify-center">
+        <div class=" grid grid-cols-1 flex items-center justify-center ">
             <div>
                 <div class="flex items-center justify-center">
                     <h1 class="header-text-one">
@@ -80,8 +82,8 @@
                         Effective Ideas
                     </h1>
                 </div>
-                <div class="flex items-start justify-center mr-20">
-                    <p class="">
+                <div class="flex align-start items-start justify-center mr-20">
+                    <p class="header-paragraph">
                         There are many variations of passages the majority majority <br>
                         have suffered alteration believable.
                     </p>
@@ -90,13 +92,13 @@
 
         </div>
 
-        <div class="flex justify-center">
+        <div class="flex justify-center header-img ">
             <img src="banner-img.png" alt="">
         </div>
 
     </header>
     <hr>
-    <header class="w-full mt-16  header-process flex items-center justify-center flex-col my-12">
+    <header class="w-full mt-16  header-process flex items-center justify-center flex-col my-12 w-full">
         <div class="text-center process-title flex-5 ">
             WORKING PROCESS
         </div>
@@ -105,18 +107,18 @@
             How it work?
         </div>
 
-        <div class="grid grid-cols-3 gap-24 mt-20 mx-12">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-24 mt-20 mx-2">
             <div>
-                <div class="text-center py-4 px-4 bg-slate-100 rounded-full text-[#bf1e2e]">
-                    <div class="py-5 px-5 text-3xl">
+                <div class="text-center py-2 px-2 sm:py-4 sm:px-4 bg-slate-100 rounded-full text-[#bf1e2e]">
+                    <div class="py-7 sm:py-5 px-5 text-3xl">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                 </div>
-                <h2 class="text-center mt-4 text-2xl process-des-message">
+                <h2 class="text-start sm:text-center mt-4  sm:w-auto sm:text-2xl process-des-message ">
                     Market Research
                 </h2>
             </div>
-            <div>
+            <div class="hidden sm:block">
                 <div class="text-center py-8 px-8  rounded-lg text-white">
                     <div class="py-5 px-5 text-3xl">
                         <img src="arrow.png" alt="" srcset="">
@@ -129,7 +131,7 @@
                         <i class="fa-solid fa-file"></i>
                     </div>
                 </div>
-                <h2 class="text-center mt-4 text-2xl process-des-message">
+                <h2 class="text-start sm:text-center mt-4  sm:w-auto sm:text-2xl process-des-message">
                     Design & Review
                 </h2>
             </div>
@@ -139,11 +141,11 @@
                         <i class="fa-solid fa-building"></i>
                     </div>
                 </div>
-                <h2 class="text-center mt-4 text-2xl process-des-message">
+                <h2 class="text-start sm:text-center mt-4  sm:w-auto sm:text-2xl process-des-message">
                     Development
                 </h2>
             </div>
-            <div>
+            <div class="hidden sm:block">
                 <div class="text-center py-8 px-8 rounded-lg text-white">
                     <div class="py-5 px-5 text-3xl ">
                         <img src="arrow.png" alt="" srcset="">
@@ -156,7 +158,7 @@
                         <i class="fa-solid fa-boxes-packing"></i>
                     </div>
                 </div>
-                <h2 class="text-center mt-4 text-2xl process-des-message">
+                <h2 class="text-start sm:text-center mt-4  sm:w-auto sm:text-2xl process-des-message">
                     Lunch Project
                 </h2>
             </div>
@@ -173,8 +175,8 @@
         <div class="text-center service-des">
             Our Services
         </div>
-        <div class="grid grid-cols-3 gap-20 mt-8 mx-20 px-8 py-8">
-            <div class="text-center py-8 px-8 text-white shadow-md service-card px-48 py-48 bg-[#2a3778] flex items-start justify-center flex-col gap-4 rounded-lg ">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-20 mt-4  sm:mt-8 mx-20 sm:px-8 sm:py-8 w-full px-3">
+            <div class="text-center p-6 w-full sm:py-8 sm:px-8 text-white shadow-md bg-[#2a3778] flex items-start justify-center flex-col gap-4 rounded-lg ">
                 <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M156.6 384.9L125.7 354c-8.5-8.5-11.5-20.8-7.7-32.2c3-8.9 7-20.5 11.8-33.8L24 288c-8.6 0-16.6-4.6-20.9-12.1s-4.2-16.7 .2-24.1l52.5-88.5c13-21.9 36.5-35.3 61.9-35.3l82.3 0c2.4-4 4.8-7.7 7.2-11.3C289.1-4.1 411.1-8.1 483.9 5.3c11.6 2.1 20.6 11.2 22.8 22.8c13.4 72.9 9.3 194.8-111.4 276.7c-3.5 2.4-7.3 4.8-11.3 7.2v82.3c0 25.4-13.4 49-35.3 61.9l-88.5 52.5c-7.4 4.4-16.6 4.5-24.1 .2s-12.1-12.2-12.1-20.9V380.8c-14.1 4.9-26.4 8.9-35.7 11.9c-11.2 3.6-23.4 .5-31.8-7.8zM384 168a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"/></svg>
                 <h3 class="text-lg font-bold">Pay Per Click</h3>
                 <p class="text-start">
@@ -183,7 +185,7 @@
                     going rassing them use a passage
                 </p>
             </div>
-            <div class="text-center py-8 px-8 text-white shadow-md service-card px-48 py-48 bg-[#2a3778] flex items-start justify-center flex-col gap-4 rounded-lg ">
+            <div class="text-center p-6 w-full sm:py-8 sm:px-8 text-white shadow-md bg-[#2a3778] flex items-start justify-center flex-col gap-4 rounded-lg ">
                 <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 460 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M220.6 130.3l-67.2 28.2V43.2L98.7 233.5l54.7-24.2v130.3l67.2-209.3zm-83.2-96.7l-1.3 4.7-15.2 52.9C80.6 106.7 52 145.8 52 191.5c0 52.3 34.3 95.9 83.4 105.5v53.6C57.5 340.1 0 272.4 0 191.6c0-80.5 59.8-147.2 137.4-158zm311.4 447.2c-11.2 11.2-23.1 12.3-28.6 10.5-5.4-1.8-27.1-19.9-60.4-44.4-33.3-24.6-33.6-35.7-43-56.7-9.4-20.9-30.4-42.6-57.5-52.4l-9.7-14.7c-24.7 16.9-53 26.9-81.3 28.7l2.1-6.6 15.9-49.5c46.5-11.9 80.9-54 80.9-104.2 0-54.5-38.4-102.1-96-107.1V32.3C254.4 37.4 320 106.8 320 191.6c0 33.6-11.2 64.7-29 90.4l14.6 9.6c9.8 27.1 31.5 48 52.4 57.4s32.2 9.7 56.8 43c24.6 33.2 42.7 54.9 44.5 60.3s.7 17.3-10.5 28.5zm-9.9-17.9c0-4.4-3.6-8-8-8s-8 3.6-8 8 3.6 8 8 8 8-3.6 8-8z"/></svg>
                 <h3 class="text-lg font-bold">Digital Marketing</h3>
                 <p class="text-start">
@@ -192,7 +194,7 @@
                     going rassing them use a passage
                 </p>
             </div>
-            <div class="text-center py-8 px-8 text-white shadow-md service-card px-48 py-48 bg-[#2a3778] flex items-start justify-center flex-col gap-4 rounded-lg ">
+            <div class="text-center p-6 w-full sm:py-8 sm:px-8 text-white shadow-md bg-[#2a3778] flex items-start justify-center flex-col gap-4 rounded-lg ">
                 <svg xmlns="http://www.w3.org/2000/svg"  height="4em" viewBox="0 0 24 24"><path fill="white" d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10c0-1.16-.21-2.31-.61-3.39l-1.6 1.6c.14.59.21 1.19.21 1.79a8 8 0 0 1-8 8a8 8 0 0 1-8-8a8 8 0 0 1 8-8c.6 0 1.2.07 1.79.21L15.4 2.6C14.31 2.21 13.16 2 12 2m7 0l-4 4v1.5l-2.55 2.55C12.3 10 12.15 10 12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2c0-.15 0-.3-.05-.45L16.5 9H18l4-4h-3V2m-7 4a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6h-2a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4V6Z"/></svg>
 
                 <h3 class="text-lg font-bold">Brand Identity</h3>
@@ -206,46 +208,46 @@
     </header>
 
     <header class="w-full mt-16 py-8 md:flex justify-center align-items-center items-center ">
-        <div class="flex items-center justify-center md:w-1/2">
+        <div class="flex items-center justify-center md:w-1/2 m-8 sm:m-0">
             <img src="why-choose-img.png" alt="" srcset="">
         </div>
-        <div class="align-items-center md:w-1/2 md:m-8">
+        <div class="align-items-center sm:w-1/2 m-8">
             <p class="text-lg md:text-sm font-semibold text-[#bf1e2e]">
                 AWESOME FEATURES
             </p>
-            <h1 class="text-6xl font-black my-4 text-[#1d2860]">We Are SEO Service Provider.</h1>
-            <p class="w-8/12 text-lg text-[#454545]">
+            <h1 class="sm:text-6xl text-3xl font-black my-4 text-[#1d2860]">We Are SEO Service Provider.</h1>
+            <p class="sm:w-8/12 w-full text-lg text-[#454545]">
                 Passage of need to be sure there isn't anything embarrassing hidden in the middle of text all the Lorem
                 Ipsum generators on the Internet ten repeat predefined chunks necessary.
             </p>
             <br>
-            <p class="w-8/12 text-lg text-[#454545] ">
+            <p class="sm:w-8/12 w-full text-lg text-[#454545] ">
                 Passage of need to be sure there isn't anything embarrassing hidden in the middle of text all the chunks
                 necessary.
             </p>
 
             <div class="grid grid-cols-2 gap-4 mt-4 w-50">
                 <div class="mb-1 ">
-                    <i class="fa-regular fa-circle-check mt-1"></i>
-                    <span class="mt-1 font-bold"> 
+                    <i class="fa-regular text-sm sm:text-lg fa-circle-check mt-1"></i>
+                    <span class="mt-1 text-sm  sm:text-lg font-bold"> 
                         Traffic Analysis
                     </span>
                 </div>
                 <div class="mb-1 ">
-                    <i class="fa-regular fa-circle-check mt-1"></i>
-                    <span class="mt-1 font-bold"> 
+                    <i class="fa-regular text-sm sm:text-lg fa-circle-check mt-1"></i>
+                    <span class="mt-1 text-sm  sm:text-lg font-bold"> 
                         24/7 Support
                     </span>
                 </div>
                 <div class="mb-1 ">
-                    <i class="fa-regular fa-circle-check mt-1"></i>
-                    <span class="mt-1 font-bold"> 
+                    <i class="fa-regular text-sm sm:text-lg fa-circle-check mt-1"></i>
+                    <span class="mt-1 text-sm  sm:text-lg font-bold"> 
                         Robust Web Plan
                     </span>
                 </div>
                 <div class="mb-1 ">
-                    <i class="fa-regular fa-circle-check mt-1"></i>
-                    <span class="mt-1 font-bold">
+                    <i class="fa-regular text-sm sm:text-lg fa-circle-check mt-1"></i>
+                    <span class="mt-1 text-sm  sm:text-lg font-bold">
                         Dedicated Team
 
                     </span>
@@ -254,7 +256,7 @@
         </div>
     </header>
 
-    <header class="w-50">
+    <header>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -279,7 +281,69 @@
         <div class="text-center process-des">
             Happy Customers
         </div>
-        <div class="owl-carousel w-6/5   p-16">
+        <div class="hidden sm:block"> 
+            <div class="owl-carousel w-full w-6/5 flex  p-16 ">
+                <div class="single-comment bg-gray-100 item text-center  mx-12 flex items-center justify-center flex-col">
+                    <div class="part-img">
+                        <img src="https://athemeart.dev/html/zobita-html/assets/images/client-2.jpg" alt="img">
+                    </div>
+                    <div class="part-txt ">
+                        <p class="p-3">
+                            Passage need to be sure there isn't anything 
+                            embarrassing hidden in the middle of all thearm 
+                            Ipsum generators the ten predefined chunks necessary.
+                        </p>
+                        <h3 class="text-[#1d2860] text-xl font-bold">
+                            Stacey Chambers
+                        </h3>
+                        <span class="text-[#bf1e2e]">
+                            Web Developer
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="single-comment bg-gray-100 item text-center  mx-12 flex items-center justify-center flex-col">
+                    <div class="part-img">
+                        <img src="https://athemeart.dev/html/zobita-html/assets/images/client-3.jpg" alt="img">
+                    </div>
+                    <div class="part-txt ">
+                        <p class="p-3">
+                            Passage need to be sure there isn't anything 
+                            embarrassing hidden in the middle of all thearm 
+                            Ipsum generators the ten predefined chunks necessary.
+                        </p>
+                        <h3 class="text-[#1d2860] text-xl font-bold">
+                            Shaikh Darda
+                        </h3>
+                        <span class="text-[#bf1e2e]">
+                            Graphic Designer
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="single-comment bg-gray-100 item text-center  mx-12 flex items-center justify-center flex-col">
+                    <div class="part-img">
+                        <img src="https://athemeart.dev/html/zobita-html/assets/images/client-1.jpg" alt="img">
+                    </div>
+                    <div class="part-txt ">
+                        <p class="p-3">
+                            Passage need to be sure there isn't anything 
+                            embarrassing hidden in the middle of all thearm 
+                            Ipsum generators the ten predefined chunks necessary.
+                        </p>
+                        <h3 class="text-[#1d2860] text-xl font-bold">
+                            Hannah Barnett
+                        </h3>
+                        <span class="text-[#bf1e2e]">
+                            UI Designer
+                        </span>
+                    </div>
+                </div>
+                
+              </div>
+        </div>
+
+        <div class="flex flex-col sm:hidden items-center justify-center w-4/5">
             <div class="single-comment bg-gray-100 item text-center  mx-12 flex items-center justify-center flex-col">
                 <div class="part-img">
                     <img src="https://athemeart.dev/html/zobita-html/assets/images/client-2.jpg" alt="img">
@@ -337,7 +401,10 @@
                 </div>
             </div>
             
-          </div>
+
+            
+        </div>
+        
     </header>
 
 
@@ -349,7 +416,7 @@
         <div class="text-center process-des">
             Latest Blog Post
         </div>
-        <div class="flex items-center justify-center">
+        <div class="flex flex-col md:flex-row items-center justify-center">
 
             <div class="max-w-sm bg-white  rounded-md shadow m-8">
                 <a href="#">
